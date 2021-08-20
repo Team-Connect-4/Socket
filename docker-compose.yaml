@@ -9,4 +9,4 @@ services:
       - type: bind
         source: ./
         target: /code
-    command: bash -c "npm run start"
+    command: bash -c "npm init && npm install && npm run start"
